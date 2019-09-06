@@ -14,7 +14,7 @@ class Pictures extends Component {
         for(var i = 1;i <= 9;i++){
             picArray.push({
                 id: i,
-                source: "/images/" + i + ".jpg"
+                source: "images/" + i + ".jpg"
             });
         }; 
         this.setState({
